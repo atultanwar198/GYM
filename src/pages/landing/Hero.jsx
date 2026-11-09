@@ -100,10 +100,10 @@ function Hero() {
               loop
               muted
               playsInline
-              aria-label="Athletes training at Club 24"
+              aria-label="Athletes training at Aayu"
             />
             <div className="hero-visual__topline">
-              <span>CLUB 24 / PERFORMANCE CLUB</span>
+              <span>AAYU / PERFORMANCE STUDIO</span>
               <span>01 — 04</span>
             </div>
             <div className="hero-visual__caption">
@@ -123,7 +123,7 @@ function Hero() {
       <div className="features">
         <div className="features-heading">
           <span className="features-heading__eyebrow">Built around your goals</span>
-          <h2>MORE THAN A GYM.<br /><span>A TRAINING ADVANTAGE.</span></h2>
+          <h2>TRAIN WITH INTENT.<br /><span>MOVE WITH PURPOSE.</span></h2>
         </div>
         <div className="Our_features">
           {features.map((feature, index) => (

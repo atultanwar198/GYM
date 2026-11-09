@@ -20,7 +20,7 @@ function Owner() {
         <span className="owner_eyebrow">About us</span>
         <h2>Built for people who want real progress, not just workouts.</h2>
         <p>
-          Club 24 blends premium training environments, expert coaching, and a
+          Aayu blends premium training environments, expert coaching, and a
           disciplined fitness culture designed to help members build strength,
           confidence, and sustainable routines.
         </p>
@@ -31,7 +31,7 @@ function Owner() {
           <div className="owner_image_section">
             <img
               src="https://images.unsplash.com/photo-1527980965255-d3b416303d12?auto=format&fit=crop&w=900&q=80"
-              alt="Club 24 training floor and coaching environment"
+              alt="Aayu training floor and coaching environment"
             />
           </div>
           <div className="owner_stat">
@@ -45,7 +45,7 @@ function Owner() {
           <h3>Train with purpose. Recover with intention.</h3>
 
           <p className="owner_description">
-            Every session at Club 24 is built around coaching that is personal,
+            Every session at Aayu is built around coaching that is personal,
             measurable, and motivating. We combine strength, conditioning, and
             recovery in one premium space so your progress feels sustainable and
             visible.

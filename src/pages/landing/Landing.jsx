@@ -39,7 +39,7 @@ const plans = [
     name: "Monthly",
     price: "₹1,999",
     tag: "Starter",
-    perks: ["Gym access", "Locker & showers", "2 group classes"],
+    perks: ["Studio access", "Locker & showers", "2 group classes"],
   },
   {
     name: "Quarterly",
@@ -161,7 +161,7 @@ function Landing() {
               >
                 <img
                   src={image}
-                  alt="Club 24 training and transformation moments"
+                  alt="Aayu training and transformation moments"
                 />
               </figure>
             ))}

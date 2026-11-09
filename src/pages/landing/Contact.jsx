@@ -13,7 +13,7 @@ const contactDetails = [
   },
   {
     label: "Location",
-    value: "Club 24 Fitness, Main Road, New Delhi",
+    value: "Aayu Performance Studio, Main Road, New Delhi",
   },
   {
     label: "Time",
@@ -45,7 +45,7 @@ function Contact() {
           </span>
           <h2>We are ready to help you start.</h2>
           <p>
-            Visit the gym, call our front desk, or send a quick message. We will
+            Visit us or call our front desk. We will
             guide you through plans, timings, and trainer availability.
           </p>
 
@@ -64,7 +64,7 @@ function Contact() {
 
           <div className="contact_map">
             <iframe
-              title="Club 24 location"
+              title="Aayu location"
               src="https://www.google.com/maps?q=New%20Delhi&z=12&output=embed"
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"

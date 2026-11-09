@@ -8,13 +8,13 @@ import { faEnvelope, faLocationDot, faPhone } from "@fortawesome/free-solid-svg-
 import "./Footer.css";
 
 function Footer({
-  brand = "Club 24",
+  brand = "Aayu",
   text = "Train harder, recover smarter, and feel stronger every day.",
 }) {
   return (
     <footer className="footer">
       <div className="footer__brand">
-        <div className="footer__badge">CLUB 24</div>
+        <div className="footer__badge">AAYU</div>
         <h2 className="footer__title">{brand}</h2>
         <p className="footer__text">{text}</p>
 

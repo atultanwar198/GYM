@@ -4,7 +4,7 @@ import logo from "../assets/dumble.png";
 import "./Navbar.css";
 
 function Navbar({
-  brand = "CLUB 24",
+  brand = "AAYU",
   links = [
     { label: "Home", href: "#hero" },
     { label: "About", href: "#about" },
@@ -17,11 +17,11 @@ function Navbar({
 }) {
   return (
     <nav className="navbar" aria-label="Main navigation">
-      <a className="navbar__brand" href="/" aria-label="Club 24 home">
-        <img className="navbar__logo" src={logo} alt="Club 24 logo" />
+      <a className="navbar__brand" href="/" aria-label="Aayu home">
+        <img className="navbar__logo" src={logo} alt="Aayu logo" />
         <span>
           {brand}
-          <small>Fitness Studio</small>
+          <small>Performance Studio</small>
         </span>
       </a>
 
