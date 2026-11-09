@@ -1,0 +1,118 @@
+.footer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 32px;
+  width: 100%;
+  padding: clamp(32px, 6vw, 64px) clamp(20px, 5vw, 64px);
+  background:
+    radial-gradient(circle at top left, rgba(255, 138, 0, 0.18), transparent 30%),
+    linear-gradient(135deg, #0d0d0d 0%, #171717 60%, #111111 100%);
+  color: #ffffff;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.footer__brand,
+.footer__contact {
+  flex: 1;
+}
+
+.footer__brand {
+  max-width: 520px;
+}
+
+.footer__badge {
+  display: inline-block;
+  margin-bottom: 12px;
+  padding: 6px 12px;
+  border: 1px solid rgba(255, 138, 0, 0.5);
+  border-radius: 999px;
+  background: rgba(255, 138, 0, 0.08);
+  color: #ffb25b;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+}
+
+.footer__title {
+  margin: 0 0 12px;
+  color: #ffffff;
+  font-size: clamp(1.6rem, 3vw, 2.4rem);
+  font-weight: 800;
+}
+
+.footer__text {
+  margin: 0;
+  color: #d7d7d7;
+  font-size: 1rem;
+  line-height: 1.7;
+}
+
+.footer__socials {
+  display: flex;
+  gap: 12px;
+  margin-top: 22px;
+}
+
+.footer__socials a {
+  display: grid;
+  place-items: center;
+  width: 42px;
+  height: 42px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.03);
+  color: #ffb25b;
+  font-size: 1rem;
+  text-decoration: none;
+  transition:
+    transform 0.2s ease,
+    background-color 0.2s ease,
+    border-color 0.2s ease;
+}
+
+.footer__socials a:hover {
+  background: rgba(255, 138, 0, 0.12);
+  border-color: rgba(255, 138, 0, 0.5);
+  transform: translateY(-2px);
+}
+
+.footer__contact {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.footer__contact h3 {
+  margin: 0 0 18px;
+  color: #ffffff;
+  font-size: 1.1rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.footer__contact p {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 0 0 10px;
+  color: #d7d7d7;
+  line-height: 1.6;
+}
+
+.footer__contact svg {
+  color: #ff8a00;
+}
+
+@media screen and (max-width: 660px) {
+  .footer {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .footer__contact {
+    width: 100%;
+  }
+}
